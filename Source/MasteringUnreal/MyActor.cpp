@@ -26,3 +26,11 @@ void AMyActor::Tick(float DeltaTime)
 
 }
 
+void AMyActor::PrintMessage()
+{
+// 	if (GEngine)
+// 	{
+// 		GEngine->AddOnScreenDebugMessage(0, 5.f, FColor::Red, TestString);
+// 	}
+}
+

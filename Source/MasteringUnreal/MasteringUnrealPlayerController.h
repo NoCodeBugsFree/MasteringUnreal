@@ -13,7 +13,12 @@ class MASTERINGUNREAL_API AMasteringUnrealPlayerController : public APlayerContr
 {
 	GENERATED_BODY()
 	
-	
-	
+public:
+
+	virtual void SetupInputComponent() override;
+
+protected:
+
+	void Fire();	
 	
 };

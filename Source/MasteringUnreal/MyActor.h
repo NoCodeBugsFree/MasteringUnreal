@@ -22,6 +22,11 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "AAA")
+	FString TestString = "Test String";
+
+	UFUNCTION(BlueprintCallable, Category = "AAA")
+	void PrintMessage();
 	
 	
 };
